@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://zeroazul.com/linea-viva-oct-2020/">
-    <img alt="ISAGEN" src="./img/global/logo.png" width="60px" />
+    <img alt="ISAGEN" src="./img/global/logo.png" width="150px" />
   </a>
 </p>
 <h1 align="center">Linea Viva Oct 2020</h1>
