@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://zeroazul.com/linea-viva-oct-2020/">
-    <img alt="ISAGEN" src="./img/logo.png" width="60px" />
+    <img alt="ISAGEN" src="./img/global/logo.png" width="60px" />
   </a>
 </p>
 <h1 align="center">Linea Viva Oct 2020</h1>
@@ -10,7 +10,7 @@
 
 
 # Collaborators @willyprados
-## 👩🏻‍💻 To view me website you can click on the link below
+## 👩‍💻 To view me website you can click on the link below
 
 <a href="https://willyprados.github.io/">willyprados.github.io</a>
 
