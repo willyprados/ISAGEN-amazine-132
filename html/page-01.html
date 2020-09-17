@@ -1,87 +1,187 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESG, nuestro enfoque para crear valor de manera sostenible</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
-  <link rel="stylesheet" href="../css/normalize/normalize.css">
-  <link rel="stylesheet" href="../css/page-01.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESG, nuestro enfoque para crear valor de manera sostenible</title>
+    <link rel="stylesheet" href="../css/page-01.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <link rel="stylesheet" href="../css/normalize/normalize.css" />
+  </head>
+  <body>
+    <nav role="navigation">
+      <div class="menuToggle">
+        <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+        <input type="checkbox" />
+        <!--
+    Some spans to act as a hamburger.
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+        <span></span>
+        <span></span>
+        <span></span>
 
-  <!--Menú-->
-  <div class="col-md-4 menu">
-    <img class="logo-menu" alt="Logo menú" src="../img/logo-menu.png" />
-    <ul class="nav flex-column nav-pills">
-        <li class="nav-item">
-            <a class="nav-link active" href="../index.html"><i class="fas fa-home"></i></a>
-        </li>
-            <p class="o-e">Otras ediciones</p>
-            <p>Edición 131</p>
+        <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+        <div class="menu">
+          <img
+            class="menu-logo" 
+            src="../img/global/linea-viva.png"
+            alt="Logo menú"
+          />
+ 
+
+          <!--Menú-->
+          <div class="menu-content">
+            <ul class="menu-nav">
+              <li class="menu-item">
+                <a class="menu-home" href="../index.html"
+                  ><i class="fas fa-home"></i
+                ></a>
+              </li>
+              <li class="menu-oe">
+                <p>Otras ediciones</p>
+              </li>
+              <li class="menu-edition">
+                <p>Edición 131</p>
+              </li>
+
+              <li class="menu-item">
+                <a
+                  class="menu-link active"
+                  href="../internas/futuro-juntos.html"
+                  >Planeando el futuro juntos</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/continuidad-seguridad.html"
+                  >Continuidad con seguridad</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/coyuntura-energetica.html"
+                  >¿Coyuntura energética?</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/contratos-suministros.html"
+                  >Límites en los contratos de suministro</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link disabled" href="../internas/covid.html"
+                  >Covid-19, nuevo capítulo en la seguridad eléctrica</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/eventos-formacion.html"
+                  >Cambios en los eventos de formación 2020</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/operadores-red.html"
+                  >Operadores de Red (OR), aliados del servicio
+                </a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link disabled" href="../internas/gestoria.html"
+                  >Gestoría, preparada contra la Covid-19
+                </a>
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/demanda-electricidad.html"
+                  >La importancia de proyectar la demanda de electricidad</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/desempeno-energetico.html"
+                  >Indicadores de desempeño energético</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/electricaribe.html"
+                  >Cambio de operador Electricaribe</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/boletin-energetico.html"
+                  >Boletín energético</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/ganadores-conexione.html"
+                  >Ganadores Conexión-e</a
+                >
+              </li>
+              <li class="menu-item">
+                <a
+                  class="menu-link disabled"
+                  href="../internas/isagen-operacion-experta-y-confiable.html"
+                  >ISAGEN, 25 años de operación experta y confiable</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- pagina -->
+    <div class="img">
+      <!--Paginación-->
+      <div class="nav">
+        <div class="nav-left">
+          <i class="fas fa-chevron-left"></i>
+          <a class="nav-btn" href="../internas/futuro-juntos.html">ANTERIOR</a>
+        </div>
+        <div class="nav-logo">
+            <img src="../img/global/logo-isagen.png" alt="Logo ISAGEN">	
+        </div>
+        <div class="nav-right">
+            <a class="nav-btn" href="../internas/coyuntura-energetica.html">SIGUIENTE</a>
+            <i class="fas fa-chevron-right"></i>	
+        </div>
         
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/futuro-juntos.html">Planeando el futuro juntos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/continuidad-seguridad.html">Continuidad con seguridad</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/coyuntura-energetica.html">¿Coyuntura energética?</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/contratos-suministros.html">Límites en los contratos de suministro</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/covid.html">Covid-19, nuevo capítulo en la seguridad eléctrica</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/eventos-formacion.html">Cambios en los eventos de formación 2020</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/operadores-red.html">Operadores de Red (OR), aliados del servicio </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/gestoria.html">Gestoría, preparada contra la Covid-19 </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/demanda-electricidad.html">La importancia de proyectar la demanda de electricidad</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/desempeno-energetico.html">Indicadores de desempeño energético</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/electricaribe.html">Cambio de operador Electricaribe</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/boletin-energetico.html">Boletín energético</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/ganadores-conexione.html">Ganadores Conexión-e</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="../internas/isagen-operacion-experta-y-confiable.html">ISAGEN, 25 años de operación experta y confiable</a>
-        </li>
-    </ul>
-  </div>
-
-  <!--Paginación-->
-  <div class="col-md-8">
-    <div class="row paginacion">
-      <div class="col-md-4 left">
-        <i class="fas fa-chevron-left"></i>
-        <a class="btn btn-sm btn-link" href="../internas/futuro-juntos.html">ANTERIOR</a>
       </div>
-      <div class="col-md-4 right logo-header">
-        <img src="../img/logo-isagen.png" alt="Logo ISAGEN">	
-      </div>
-      <div class="col-md-4 right">
-        <a class="btn btn-sm btn-link" href="../internas/coyuntura-energetica.html">SIGUIENTE</a>
-        <i class="fas fa-chevron-right"></i>	
-      </div>
+      <!-- contenido -->
+      <img
+        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80"
+        alt=""
+      />
+      <img
+        src="https://images.unsplash.com/photo-1454789415558-bdda08f4eabb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+        alt=""
+      />
+      <h1 style="color: #fff; font-size: 4rem">Hello World</h1>
     </div>
-  </div>
-
-  
-</body>
+  </body>
 </html>
