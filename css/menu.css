@@ -140,6 +140,7 @@ body {
 
 .menu-nav li {
   padding: 5px 15px 0 0;
+  align-self: flex-end;
 }
 
 li.menu-oe{
