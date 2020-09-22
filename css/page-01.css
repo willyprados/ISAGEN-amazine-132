@@ -40,7 +40,7 @@ margin: 0;
 .section-two{
   display: flex;
   flex-direction: column;
-  padding-left: 25%;
+  padding-left: 22%;
 }
 .two-p{
   position: relative;
@@ -74,11 +74,6 @@ margin: 0;
 }
 
 /* Responsive */
-@media (max-width: 1272px) {
-  .content-white{
-    top: 600px;
-  }
-}
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -87,7 +82,7 @@ margin: 0;
     padding: 2% 10% 0% 20%;
   }
   .section-two{
-    padding-left: 20%;
+    padding-left: 15%;
   }
   .two-p{
     top: -422px;
@@ -95,8 +90,7 @@ margin: 0;
     width: 100%;
   }
   .two-p p{
-    padding: 2% 6%;
-    margin-right: 4%;
+    padding: 0 24% 0 6%;
   }
   .two-duo{
     flex-direction: column;
@@ -129,6 +123,9 @@ margin: 0;
   .two-p{
     top: -300px;
     width: 100%;
+  }
+  .two-p p{
+    padding: 0 10% 0 6%;
   }
   .two-duo{
     top: -300px;
