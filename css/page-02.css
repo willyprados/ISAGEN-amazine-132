@@ -1,0 +1,276 @@
+/* styles page content */
+
+/* Global in page two */
+/* p, strong{
+  font-size: 1.2rem;
+} */
+/* Section one */
+.section-one-title{
+  padding: 10% 15% 20%;
+  background: blue;
+}
+.title-one hr{
+  width: 130px;
+  border: 3px solid #fff;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.title-one h1{
+  color: #fff;
+  margin: 0;
+  font-size: 1.8rem;
+}
+.title-two h1{
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+  font-weight: 300;
+}
+.title-three h1{
+  margin: 0;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.section-one-img{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -200px;
+}
+.section-one-img img{
+  width: 85%;
+}
+
+/* Section two */
+.section-two{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  position: relative;
+  top: -150px;
+}
+.section-two-duo{
+  display: flex;
+  justify-content: center;
+}
+.duo-text{
+  width: 50%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.duo-text h2{
+  font-size: 1.8rem;
+  color: blue;
+  padding: 4% 0;
+  text-align: left;
+}
+.duo-img{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.duo-img img{
+  width: 100%;
+}
+
+/* Section card */
+.section-card{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  position: relative;
+  top: -100px;
+}
+.card{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card.medium{
+  margin: 0 5%;
+}
+.card p{
+  text-align: justify;
+}
+.card-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-icon p{
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+}
+.border{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: blue;
+  padding: 10%;
+  border-radius: 80px;
+}
+.border i{
+  color: #fff;
+  font-size: 2rem;
+  padding: 7px 0;
+}
+
+/* Section three */
+.section-three{
+  display: flex;
+  justify-content: center;
+  background: #d1d1d1;
+}
+.section-three-img{
+  width: 40%;
+  display: contents;
+}
+.section-three-img img{
+  width: 42%;
+  margin: 0 2% 0 5%;
+}
+.section-three-text{
+  width: 60%;
+  padding: 2% 10% 0 0;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+.section-three-text h2, .three-text{
+  font-size: 1.8rem;
+  color: blue;
+  text-align: left;
+}
+.three-div{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.img-mobile{
+  display: none;
+}
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1020px) {
+  /* Section one */
+  .section-one-title{
+    padding: 10% 15% 25%;
+  }
+  .title-one hr{
+    width: 110px;
+    border: 2px solid #fff;
+  }
+  .title-one h1{
+    font-size: 1.5rem;
+  }
+  .title-two h1{
+    font-size: 1.25rem;
+  }
+  .title-three h1{
+    font-size: 2.5rem;
+  }
+  .section-one-img{
+    top: -150px;
+  }
+  /* Section two */
+  .section-two{
+    padding: 0 15%;
+  }
+  .section-two div p{
+    text-align: justify;
+  }
+  .duo-text{
+    width: 100%;
+    padding: 0;
+  }
+  .duo-img{
+    display: none;
+  }
+  /* Section Card */
+  .section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+    top: -100px;
+  }
+  /* Section Three */
+  .section-three {
+    display: block;
+  }
+  .section-three-text {
+    width: 100%;
+    padding: 0;
+  }
+  .section-three-img{
+    display: none;
+  }
+  .img-mobile{
+    display: flex;
+    padding: 0 10%;
+  }
+  .img-mobile img{
+    width: 100%;
+  }
+  .section-three-text h2, .three-div, .mobile{
+  padding: 0 10%;
+  }
+  ul {
+  margin: 2% 0 4% 2%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* Section one */
+  .section-one-title{
+    padding: 10% 15% 30%;
+  }
+  .title-one hr{
+    width: 90px;
+  }
+  .title-one h1{
+    font-size: 1.25rem;
+  }
+  .title-two h1{
+    font-size: 1.2rem;
+  }
+  .title-three h1{
+    font-size: 1.5rem;
+  }
+  .section-one-img{
+    top: -100px;
+  }
+  /* Section two */
+  p, strong{
+    font-size: 1rem;
+  }
+  .section-two{
+    padding: 0 10%;
+    top: -100px;
+  }
+  .duo-text h2 {
+    font-size: 1.5rem;
+  }
+  /* Section card */
+  .card{
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .section-card{
+    top: -60px;
+  }
+  /* Section Three */
+  .section-three {
+    padding: 0;
+  }
+}
