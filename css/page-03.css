@@ -1,0 +1,168 @@
+/* styles page content */
+
+
+/* Section one */
+.section-one{
+  display: flex;
+  justify-content: center;
+}
+.section-one-img img{
+  width: 100%;
+}
+.section-one-text{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 0 10%;
+  width: 500px;
+}
+.section-one-content{
+  width: 550px;
+  position: relative;
+  right: 250px;
+  margin-top: 5%;
+}
+.section-one-content hr{
+  width: 594px;
+  border: 8px solid #009520;
+  /* display: inline-block; */
+  margin: 0;
+  padding: 0;
+}
+.text-one{
+  padding-top: 5%;
+}
+.text-one hr{
+  width: 150px;
+  border: 3px solid #009520;
+  display: inline-block;
+}
+.text-one h1{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.text-two h1{
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 0;
+  padding-top: 0;
+}
+.text-two span{
+  color: #009520;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.text-three{
+  text-align: justify;
+}
+
+/* Section two */
+.two-duo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.duo-text{
+  padding: 0 10% 0 15%;
+  text-align: justify;
+}
+.duo-img img{
+  height: 600px;
+}
+.two-text{
+  padding: 0 15% 0;
+  text-align: justify;
+}
+
+/* Section three */
+.three-title{
+  background: green;
+  width: 40%;
+  text-align: end;
+  margin: 5% 0;
+}
+.three-title h2{
+  padding: 2%;
+  color: #fff;
+  font-size: 2rem;
+}
+.three-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.three-img img{
+  width: 100%;
+}
+.three-img img.none{
+  display: none;
+  width: 100%;
+}
+.three-img h3{
+  font-size: 1.8rem;
+  padding-bottom: 2%;
+  color: green;
+}
+h3.blue{
+  color: blue;
+}
+
+/* Section four */
+.four{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.four hr{
+  width: 74%;
+  border: 10px solid #009520;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  position: relative;
+  bottom: 372px;
+}
+.four-duo-content{
+ display: flex;
+ justify-content: center;
+ margin: 0 10%;
+}
+.four-hr hr{
+  width: 100%;
+  border: 10px solid #009520;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.duo-content-img{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.duo-content-img img{
+  height: 70%;
+}
+.duo-content-text{
+  padding: 0 4%;
+  text-align: justify;
+}
+
+
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1020px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}
