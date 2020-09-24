@@ -1,0 +1,158 @@
+/* styles page content */
+
+
+/* Section one */
+.section-one{
+  display: flex;
+  justify-content: center;
+}
+.one-righ{
+  padding: 4% 5%;
+  width: 40%;
+}
+.righ-hr hr{
+  width: 300px;
+  border: 2px solid #0656a3;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.righ-hr h1{
+  font-size: 4rem;
+  color: #0656a3;
+  margin: 0;
+  padding: 0;
+}
+.righ-title h1{
+  font-weight: 200;
+  color: #58595b;
+}
+.righ-title h1,.righ-title h1 strong{
+  font-size: 3rem;
+  color: #58595b;
+  margin: 0;
+  padding: 0;
+}
+.righ-text p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+.one-left{
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+.one-left img{
+  width: 100%;
+}
+
+/* Section two */
+.section-two{
+  background: #dadada;
+  margin: 0 10%;
+  position: absolute;
+  top: 630px;
+}
+.two-title{
+  display: flex;
+  justify-content: center;
+}
+.two-title h2{
+  color: #0656a3;
+  font-size: 1.5rem;
+  padding: 5% 0;
+}
+/*Cards*/
+.cards{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  /* background: #fff;
+  width: 250px;
+  padding: 2%; */
+}
+.card-column {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+.card-icon{
+  background: #ff003d;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50px;
+  padding: 15px;
+  top: 22px;
+}
+.card-icon.yellow{
+  background: #ffc20f;
+}
+.card-icon i{
+  color: #fff;
+}
+.card-text{
+  line-height: 15px;
+  background: #fff;
+  padding: 10%;
+  width: 260px;
+  height: 150px;
+}
+.card-text.large{
+  height: 240px;
+}
+.text-bold p {
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+}
+
+/* Footer */
+.two-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.footer-text p,.footer-liner p{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #58595b;
+}
+.footer-liner{
+  border: 2px solid #58595b;
+  border-radius: 10px;
+  padding: 0 2%;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+}
+.img-one{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.img-two{
+  width: 50%;
+}
+.img-one img,.img-two img{
+  width: 40%;
+  padding: 0 2% 4%;
+}
+
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1020px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}
