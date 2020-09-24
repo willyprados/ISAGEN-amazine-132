@@ -1,0 +1,159 @@
+/* styles page content */
+
+a{
+  color: #0055dd;
+}
+.container {
+  position: absolute;
+  top: 730px;
+  background: #fff;
+}
+
+/* Section one */
+.one-duo{
+  display: flex;
+  justify-content: center;
+}
+.duo-img,.duo-text{
+  width: 50%;
+}
+.duo-img img{
+  height: 70%;
+}
+.duo-text{
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10% 4% 0;
+}
+.text-hr hr{
+  width: 260px;
+  border: 4px solid #ffc20f;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.text-hr h1{
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+}
+.text-title h1{
+  font-weight: 200;
+}
+.text-title h1,.text-title strong{
+  font-size: 3.5rem;
+  margin: 0;
+  padding: 0;
+}
+.text-text {
+  text-align: justify;
+  font-weight: 500;
+}
+
+/* Section two */
+.two{
+  background: #fff;
+  margin: 0 10%;
+  padding: 3% 5%;
+  /* position: relative;
+  top: -350px; */
+}
+.section-two hr{
+  border: 20px solid #ffc20f;
+  /* display: inline-block; */
+  margin: 0;
+  padding: 0;
+}
+.two-text p{
+  padding-right: 25%;
+  text-align: justify;
+}
+.two-duo{
+  display: flex;
+  justify-content: center;
+}
+.two-duo-text{
+  padding-right: 5%;
+  text-align: justify;
+}
+.two-duo-img{
+  width: 50%;
+}
+.two-duo-img img{
+  height: 55%;
+}
+
+/* Section three */
+.section-three{
+  position: relative;
+  top: -500px;
+  background:  #ffc20f;
+  padding-bottom: 10%;
+}
+.three-container{
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  margin: 0 10%;
+  padding: 0 5% 5%;
+  height: 800px;
+}
+.container-img{
+  width: 50%;
+}
+.container-img img{
+  height: 100%;
+}
+.container-text{
+  width: 50%;
+  padding: 5% 0 0 5%;
+  text-align: justify;
+}
+
+/* Section four */
+.section-four {
+  position: absolute;
+  top: 2000px;
+  padding: 5% 10%;
+  background: #f2f2f2;
+}
+.container-img{
+  padding-top: 5%;
+}
+.contener-img img{
+  width: 60%;
+  padding-left: 5%;
+}
+.contener-text {
+  position: relative;
+  text-align: justify;
+  background: #fff;
+  box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.09);
+  padding-top: 4%;
+  width: 55%;
+  left: 500px;
+  top: -220px;
+}
+.contener-text p {
+  padding: 0 15% 5%;
+}
+.contener-text hr{
+  border: 5px solid #ffc20f;
+}
+
+
+
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1020px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}
