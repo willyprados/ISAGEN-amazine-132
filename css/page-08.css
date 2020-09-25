@@ -1,0 +1,151 @@
+
+.one-img {
+  width: 100%;
+}
+.one-img img {
+  z-index: -1 !important;
+  width: 100%;
+  position: relative;
+}
+.one-title {
+  padding-top: 40px;
+  min-height: 400px;
+  width: 65%;
+  margin-top: -350px;
+  background-color: #ff0000cf;
+}
+.title-hr {
+  margin-top: 0px;
+}
+.title-hr h1 {
+  color: #ffffff;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 55px;
+}
+.title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #fff;
+  margin: 0px;
+  margin-left: 25px;
+}
+.title-hr hr {
+  margin-left: 25px;
+  border: 2px solid #fff;
+  width: 40%;
+  display: inline-block;
+}
+.title b {
+  color: #ffffff;
+}
+.titles {
+  width: 65%;
+  margin-left: 23%;
+}
+
+.titles .title-hr h1 b {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.titles .title h1 b {
+  font-size: 34px;
+  font-weight: bold;
+}
+.title-text p {
+  color: #ffffff;
+  margin-left: 25px;
+  font-weight: 400;
+  text-align: justify;
+}
+.section-two {
+  display: flex;
+  width: 85%;
+  margin-left: 10%;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding-top: 60px;
+  margin-top: -155px;
+}
+.two-img {
+  width: 45%;
+  padding-left: 50px;
+}
+.two-img img {
+  max-width: 100%;
+}
+.two-text {
+  width: 55%;
+  padding-left: 50px;
+}
+
+.two-text p {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: justify;
+    color: #58595B;
+}
+.four-img {
+  width: 40%;
+}
+.four-img img {
+  width: 100%;
+}
+
+.section-four {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.four-text {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.four-text p {
+  width: 70%;
+  text-align: justify;
+  margin-top: 0px;
+  color: #58595B;
+  margin-bottom: 10px;
+}
+
+.section-six {
+  z-index: -1;
+  height: 250px;
+  background-color: #E8E8E8;
+  position: relative;
+}
+.section-five {
+  margin-bottom: -90px;
+  width: 71%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px;
+  background-image: url(../img/desktop/destacado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.five-img p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+.three-card {
+  margin-top: 60px;
+  width: 64%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.three-card img {
+  width: 100%;
+}

@@ -1,5 +1,10 @@
 /* styles page content */
 
+.container{
+  position: relative;
+  top: -400px;
+}
+
 /* Section one */
 .section-one{
   background: #0d0c11;
@@ -11,8 +16,8 @@
 
 /* Section two */
 .section-two{
-  position: absolute;
-  bottom: -325px;
+  position: relative;
+  top: -385px;
   margin: 0 15%;
 }
 .two-title{
@@ -96,7 +101,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: -227px;
+  top: -200px;
 }
 .section-four img{
   width: 75%;
