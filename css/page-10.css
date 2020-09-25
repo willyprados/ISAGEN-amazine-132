@@ -1,0 +1,132 @@
+/* styles page content */
+
+
+a{
+  color: #0055dd;;
+}
+/* .container{
+  background-image: url(../img/desktop/fondo-10.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 30%;
+  margin: 0;
+  padding: 0;
+} */
+/* .section-three{
+  background-image: url(../img/desktop/fondo-10.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 30%;
+  margin: 0;
+  padding: 0;
+} */
+
+
+/* Section one */
+.section-one{
+  background: #ffc20f;
+  padding-bottom: 20%;
+}
+.one-title{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 20%;
+}
+.one-title.relative{
+  position: relative;
+  top: -300px;
+}
+.title{
+  padding: 5% 0 5% 10%;
+}
+.title-title h1,.title-title h1 strong{
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+.title-title h1{
+  font-weight: 400;
+}
+.title-hr hr{
+  width: 200px;
+  border: 3px solid #58595b;
+  display: inline-block;
+}
+.title-hr h1{
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+}
+.one-img{
+  background: #dadada;
+}
+.img{
+  display: flex;
+  justify-content: flex-end;
+}
+.img img{
+  width: 100%;
+}
+.text p{
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 2%;
+  font-weight: 600;
+}
+
+/* Section two */
+.section-two{
+  display: flex;
+  justify-content: center;
+  margin: 0 5% 0 15%;
+  margin-top: -160px;
+}
+.two-text{
+  padding: 2%;
+  text-align: justify;
+}
+.two-img{
+  display: flex;
+  justify-content: center;
+}
+.two-img img{
+  height: 70%;
+  padding-top: 4%;
+}
+
+
+/* Section three */
+.three-content{
+  display: flex;
+  justify-content: center;
+}
+.content-img{
+  position: absolute;
+  left: 100px;
+}
+.content-text{
+  width: 100%;
+  /* right: 0; */
+  /* align-self: flex-end; */
+  background: #dadada;
+  padding: 5% 2% 5% 55%;
+  text-align: justify;
+}
+
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 1020px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}

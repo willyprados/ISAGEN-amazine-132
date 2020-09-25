@@ -150,10 +150,14 @@ a{
 
 /* Tablet */
 @media (max-width: 1020px) {
+  .duo-img, .duo-text {
+    width: 100%;
+}
 
 }
 
 /* Mobile */
 @media (max-width: 480px) {
+
 
 }
