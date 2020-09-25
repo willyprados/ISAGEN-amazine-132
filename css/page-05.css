@@ -68,9 +68,6 @@
   flex-direction: column;
   text-align: justify;
   align-items: center;
-  /* background: #fff;
-  width: 250px;
-  padding: 2%; */
 }
 .card-column {
   display: flex;

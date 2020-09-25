@@ -55,12 +55,9 @@ a{
   background: #fff;
   margin: 0 10%;
   padding: 3% 5%;
-  /* position: relative;
-  top: -350px; */
 }
 .section-two hr{
   border: 20px solid #ffc20f;
-  /* display: inline-block; */
   margin: 0;
   padding: 0;
 }
@@ -117,9 +114,6 @@ a{
   padding: 5% 10%;
   background: #f2f2f2;
 }
-/* .container-img{
-  padding-top: 5%;
-} */
 .contener-img img{
   width: 60%;
   padding-left: 5%;

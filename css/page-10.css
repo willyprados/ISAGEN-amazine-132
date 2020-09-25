@@ -4,24 +4,6 @@
 a{
   color: #0055dd;;
 }
-/* .container{
-  background-image: url(../img/desktop/fondo-10.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 30%;
-  margin: 0;
-  padding: 0;
-} */
-/* .section-three{
-  background-image: url(../img/desktop/fondo-10.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 30%;
-  margin: 0;
-  padding: 0;
-} */
 
 
 /* Section one */
@@ -109,8 +91,6 @@ a{
 }
 .content-text{
   width: 100%;
-  /* right: 0; */
-  /* align-self: flex-end; */
   background: #dadada;
   padding: 5% 2% 5% 55%;
   text-align: justify;

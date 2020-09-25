@@ -11,8 +11,6 @@
 
 /* Section two */
 .section-two{
-  /* position: relative;
-  top: -830px; */
   position: absolute;
   bottom: -325px;
   margin: 0 15%;
@@ -67,7 +65,6 @@
   margin: 0 15%;
   padding: 3% 5%;
   position: relative;
-  /* top: -750px; */
   top: -350px;
 }
 .three-text p{
