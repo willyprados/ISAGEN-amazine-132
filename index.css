@@ -76,14 +76,14 @@ h3 {
   margin-top: 5%;
 }
 .btn-home {
-  background: linear-gradient(to right, #7db2e8 0%,#2a72d6 57%,#212ca8 100%);
+  background: linear-gradient(to right,#17b1ff 60%,#2a72d6 160%);
   color: #fff;
-  padding: 0.5rem 1rem;
-  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.7rem;
   text-decoration: none;
 }
 .btn-home:hover{
-  background: #212ca8;
+  background: #17b1ff;
 }
 .btn-home-div p {
   text-align: center;

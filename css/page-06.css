@@ -1,46 +1,54 @@
 /* styles page content */
 
-a{
+a {
   color: #0055dd;
 }
 .container {
-  position: absolute;
-  top: 730px;
+  position: relative;
+  top: 620px;
   background: #fff;
 }
 
 /* Section one */
-.one-duo{
+.section-one {
+  position: absolute;
+}
+.one-duo {
   display: flex;
   justify-content: center;
 }
-.duo-img,.duo-text{
+.duo-img,
+.duo-text {
   width: 50%;
 }
-.duo-img img{
-  height: 70%;
+.duo-img img {
+  width: 100%;
 }
-.duo-text{
+.duo-img img.mobile {
+  display: none;
+}
+.duo-text {
   display: flex;
   flex-direction: column;
-  padding: 10% 10% 4% 0;
+  padding: 10% 10% 0 4%;
 }
-.text-hr hr{
+.text-hr hr {
   width: 260px;
   border: 4px solid #ffc20f;
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-.text-hr h1{
+.text-hr h1 {
   font-size: 6rem;
   margin: 0;
   padding: 0;
 }
-.text-title h1{
+.text-title h1 {
   font-weight: 200;
 }
-.text-title h1,.text-title strong{
+.text-title h1,
+.text-title strong {
   font-size: 3.5rem;
   margin: 0;
   padding: 0;
@@ -51,57 +59,60 @@ a{
 }
 
 /* Section two */
-.two{
+.section-two {
+  position: absolute;
+}
+.two {
   background: #fff;
   margin: 0 10%;
   padding: 3% 5%;
 }
-.section-two hr{
+.section-two hr {
   border: 20px solid #ffc20f;
   margin: 0;
   padding: 0;
 }
-.two-text p{
+.two-text p {
   padding-right: 25%;
   text-align: justify;
 }
-.two-duo{
+.two-duo {
   display: flex;
   justify-content: center;
 }
-.two-duo-text{
+.two-duo-text {
   padding-right: 5%;
   text-align: justify;
 }
-.two-duo-img{
+.two-duo-img {
   width: 50%;
 }
-.two-duo-img img{
+.two-duo-img img {
   height: 55%;
 }
 
 /* Section three */
-.section-three{
+.section-three {
   position: relative;
-  top: -500px;
-  background:  #ffc20f;
+  top: 1100px;
+  background: #ffc20f;
   padding-bottom: 10%;
 }
-.three-container{
+.three-container {
   display: flex;
   justify-content: center;
   background: #fff;
   margin: 0 10%;
-  padding: 0 5% 5%;
+  padding: 0 5% 0 5%;
   height: 800px;
 }
-.container-img{
+.container-img {
   width: 50%;
 }
-.container-img img{
-  height: 100%;
+.container-img img {
+  width: 100%;
 }
-.container-text{
+.container-text {
   width: 50%;
   padding: 5% 0 0 5%;
   text-align: justify;
@@ -109,12 +120,12 @@ a{
 
 /* Section four */
 .section-four {
-  position: absolute;
-  top: 2000px;
-  padding: 5% 10%;
+  position: relative;
+  top: 1100px;
+  padding: 5% 10% 0;
   background: #f2f2f2;
 }
-.contener-img img{
+.contener-img img {
   width: 60%;
   padding-left: 5%;
 }
@@ -122,7 +133,7 @@ a{
   position: relative;
   text-align: justify;
   background: #fff;
-  box-shadow: 10px 10px 15px 2px rgba(0,0,0,0.09);
+  box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.09);
   padding-top: 4%;
   width: 55%;
   left: 500px;
@@ -131,27 +142,118 @@ a{
 .contener-text p {
   padding: 0 15% 5%;
 }
-.contener-text hr{
+.contener-text hr {
   border: 5px solid #ffc20f;
 }
-
-
-
-
-
 
 /* Responsive */
 
 /* Tablet */
 @media (max-width: 1020px) {
-  .duo-img, .duo-text {
+  .text-hr hr {
+    width: 240px;
+  }
+  .text-hr h1 {
+    font-size: 4rem;
+  }
+  .text-title h1,
+  .text-title strong {
+    font-size: 2.3rem;
+  }
+  .duo-img,
+  .duo-text {
     width: 100%;
-}
-
+  }
+  .container {
+    top: 450px;
+  }
+  .two-text p {
+    padding: 0;
+  }
+  .two-duo {
+    display: block;
+  }
+  .two-duo-text {
+    padding: 0;
+  }
+  .two-duo-img img {
+    display: none;
+  }
+  .container-img {
+    display: none;
+  }
+  .container-text {
+    width: auto;
+    padding: 5% 0;
+  }
+  .section-three {
+    top: 860px;
+  }
+  .three-container {
+    height: auto;
+  }
+  .contener-img img {
+    width: 85%;
+  }
+  .contener-text {
+    width: 85%;
+    left: 90px;
+    top: -120px;
+  }
+  .section-four {
+    top: 860px;
+    padding: 10% 10% 0;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-
-
+  .duo-img img.desktop {
+    display: none;
+  }
+  .duo-img img.mobile {
+    display: flex;
+  }
+  .container {
+    top: 710px;
+  }
+  .one-duo {
+    flex-direction: column;
+  }
+  .duo-text {
+    padding: 0;
+  }
+  .text-hr {
+    padding: 5% 10% 0;
+  }
+  .text-hr hr {
+    width: 90px;
+    border: 2px solid #ffc20f;
+  }
+  .text-hr h1 {
+    font-size: 1.7rem;
+  }
+  .text-title,
+  .text-text {
+    padding: 0 10%;
+  }
+  .text-title h1,
+  .text-title strong {
+    font-size: 1.5rem;
+  }
+  .section-three,.section-four{
+    top: 1490px;
+  }
+  .section-four{
+    padding: 10% 10% 0;
+  }
+  .contener-img img{
+    width: 100%;
+    padding: 0;
+  }
+  .contener-text{
+    width: 100%;
+    left: 20px;
+    top: -50px;
+  }
 }

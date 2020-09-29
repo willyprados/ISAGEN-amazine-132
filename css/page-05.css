@@ -1,33 +1,33 @@
 /* styles page content */
 
-
 /* Section one */
-.section-one{
+.section-one {
   display: flex;
   justify-content: center;
 }
-.one-righ{
+.one-righ {
   padding: 4% 5%;
   width: 40%;
 }
-.righ-hr hr{
+.righ-hr hr {
   width: 300px;
   border: 2px solid #0656a3;
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-.righ-hr h1{
+.righ-hr h1 {
   font-size: 4rem;
   color: #0656a3;
   margin: 0;
   padding: 0;
 }
-.righ-title h1{
+.righ-title h1 {
   font-weight: 200;
   color: #58595b;
 }
-.righ-title h1,.righ-title h1 strong{
+.righ-title h1,
+.righ-title h1 strong {
   font-size: 3rem;
   color: #58595b;
   margin: 0;
@@ -37,33 +37,37 @@
   text-align: justify;
   font-size: 1.5rem;
 }
-.one-left{
+.one-left {
   display: flex;
   justify-content: flex-end;
   width: 60%;
 }
-.one-left img{
+.one-left img.mobile {
+  display: none;
+}
+.one-left img {
   width: 100%;
 }
 
 /* Section two */
-.section-two{
+.section-two {
   background: #dadada;
   margin: 0 10%;
   position: absolute;
   top: 630px;
 }
-.two-title{
+.two-title {
   display: flex;
   justify-content: center;
 }
-.two-title h2{
+.two-title h2 {
+  text-align: center;
   color: #0656a3;
   font-size: 1.5rem;
   padding: 5% 0;
 }
 /*Cards*/
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -74,7 +78,7 @@
   justify-content: space-evenly;
   margin-bottom: 5%;
 }
-.card-icon{
+.card-icon {
   background: #ff003d;
   display: flex;
   justify-content: center;
@@ -83,20 +87,20 @@
   padding: 15px;
   top: 22px;
 }
-.card-icon.yellow{
+.card-icon.yellow {
   background: #ffc20f;
 }
-.card-icon i{
+.card-icon i {
   color: #fff;
 }
-.card-text{
+.card-text {
   line-height: 15px;
   background: #fff;
   padding: 10%;
   width: 260px;
-  height: 150px;
+  height: 170px;
 }
-.card-text.large{
+.card-text.large {
   height: 240px;
 }
 .text-bold p {
@@ -106,50 +110,148 @@
 }
 
 /* Footer */
-.two-footer{
+.two-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 5%;
 }
-.footer-text p,.footer-liner p{
+.footer-text p,
+.footer-liner p {
   font-size: 2rem;
   font-weight: 800;
   color: #58595b;
 }
-.footer-liner{
+.footer-liner {
   border: 2px solid #58595b;
   border-radius: 10px;
   padding: 0 2%;
 }
-.footer-img{
+.footer-img {
   display: flex;
   justify-content: center;
 }
-.img-one{
+.img-one {
   display: flex;
   justify-content: flex-end;
   width: 50%;
 }
-.img-two{
+a.link {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-two {
   width: 50%;
 }
-.img-one img,.img-two img{
+.img-one a.link img,
+.img-two img {
+  display: flex;
   width: 40%;
   padding: 0 2% 4%;
 }
-
-
-
 
 /* Responsive */
 
 /* Tablet */
 @media (max-width: 1020px) {
-
+  .section-one {
+    flex-direction: column;
+    position: absolute;
+  }
+  .one-righ {
+    width: auto;
+  }
+  .righ-hr{
+    margin-top: 5%;
+  }
+  .righ-hr,.righ-title{
+    padding: 0 30% 0 5%;
+  }
+  .righ-text{
+    padding: 0 5%;
+  }
+  .one-left {
+    width: 100%;
+  }
+  .one-left img.desktop {
+    display: none;
+  }
+  .one-left img.mobile {
+    display: flex;
+  }
+  .card-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .section-two {
+    position: relative;
+    top: 850px;
+  }
+  .card-icon i {
+    font-size: 1.5rem;
+  }
+  .card-text,
+  .card-text.large {
+    width: 450px;
+    height: auto;
+    line-height: normal;
+  }
+  .two-title h2 {
+    padding: 5% 5%;
+  }
+  .footer-text{
+    margin-top: 10%;
+  }
+  .footer-text p,
+  .footer-liner p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .footer-text,
+  .footer-liner {
+    width: 80%;
+    padding: 0;
+  }
+  .footer-liner p {
+    margin: 2%;
+    padding: 0;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-
+  .righ-hr hr{
+    width: 155px;
+  }
+  .righ-hr h1,.righ-title h1,.righ-title h1 strong{
+    font-size: 2rem;
+  }
+  .righ-text p{
+    font-size: 1rem;
+  }
+  .righ-hr, .righ-title{
+    padding: 0 5%;
+  }
+  .section-two{
+    top: 545px;
+  }
+  .two-title h2{
+    font-size: 1.25rem;
+  }
+  .card-text, .card-text.large{
+    width: 210px;
+  }
+  .footer-text p, .footer-liner p{
+    font-size: 1rem;
+  }
+  .two-footer{
+    padding-bottom: 10%;
+  }
+  .img-one img, .img-two img{
+    display: flex;
+    width: 60%;
+    padding: 0 2% 10%;
+  }
 }
