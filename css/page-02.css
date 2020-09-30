@@ -278,4 +278,8 @@ p.three-text {
     text-align: right;
     display: block;
   }
+  .border{
+    display: block;
+    text-align: center;
+  }
 }
