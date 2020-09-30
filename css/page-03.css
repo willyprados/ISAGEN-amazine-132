@@ -118,14 +118,14 @@ h3.blue {
   justify-content: center;
 }
 .four hr {
-  width: 74%;
+  width: 75%;
   border: 10px solid #12ac38;
   display: inline-block;
   margin: 0;
   padding: 0;
   align-self: center;
   position: relative;
-  bottom: 372px;
+  bottom: 350px;
 }
 .four-duo-content {
   display: flex;
@@ -145,7 +145,7 @@ h3.blue {
   width: 50%;
 }
 .duo-content-img img {
-  height: 70%;
+  height: 72%;
 }
 .duo-content-img img.none {
   display: none;
@@ -154,8 +154,40 @@ h3.blue {
   padding: 0 4%;
   text-align: justify;
 }
+.duo-content-text p.margin {
+  margin-top: 0;
+}
+
 
 /* Responsive */
+
+
+
+@media (max-width: 1400px){
+  .four hr {
+    width: 75%;
+  }
+}
+@media (max-width: 1380px){
+  .four hr {
+    width: 80%;
+  }
+}
+@media (max-width: 1370px){
+  .four hr {
+    width: 77%;
+  }
+}
+@media (max-width: 1350px){
+  .four hr {
+    width: 80%;
+  }
+}
+@media (max-width: 1264px){
+  .four hr {
+    width: 80%;
+  }
+}
 
 /* Tablet */
 @media (max-width: 1020px) {
