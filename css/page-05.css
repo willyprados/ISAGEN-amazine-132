@@ -17,17 +17,20 @@
   padding: 0;
 }
 .righ-hr h1 {
+  line-height: normal;
   font-size: 4rem;
   color: #0656a3;
   margin: 0;
   padding: 0;
 }
 .righ-title h1 {
+  line-height: normal;
   font-weight: 200;
   color: #58595b;
 }
 .righ-title h1,
 .righ-title h1 strong {
+  line-height: normal;
   font-size: 3rem;
   color: #58595b;
   margin: 0;
@@ -62,6 +65,7 @@
 }
 .two-title h2 {
   text-align: center;
+  line-height: normal;
   color: #0656a3;
   font-size: 1.5rem;
   padding: 5% 0;
@@ -101,7 +105,7 @@
   height: 170px;
 }
 .card-text.large {
-  height: 240px;
+  height: 310px;
 }
 .text-bold p {
   padding: 0;
@@ -249,9 +253,17 @@ a.link {
   .two-footer{
     padding-bottom: 10%;
   }
+  .img-one{
+    display: block;
+    text-align: right;
+  }
+  .img-one a.link img, .img-two img{
+    height: 30px;
+    width: 90px;
+  }
   .img-one img, .img-two img{
-    display: flex;
-    width: 60%;
+    height: 30px;
+    width: 90px;
     padding: 0 2% 10%;
   }
 }

@@ -21,7 +21,7 @@ body {
 
 h1{
   text-align: center;
-  font-size: 8rem;
+  font-size: 7.6rem;
   margin: 0;
 }
 h3 {
@@ -39,19 +39,20 @@ h3 {
 }
 .logo-left{
   position: absolute;
-  width: 20%;
+  width: 18%;
   left: 0;
   padding-top: 1rem;
 }
 .logo-right{
   position: absolute;
-  width: 30%;
+  width: 22%;
   right: 0;
 }
 .titles {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: -40px;
 }
 .texts {
   width: 60%;
@@ -59,15 +60,15 @@ h3 {
 }
 .titles p {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 100;
+  font-size: 1.8rem;
+  font-weight: 300;
   margin: 0;
 }
 .titles p strong {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .border-line {
-  width: 70%;
+  width: 65%;
   border: 3px solid #fff;
   align-self: center;
   padding: 1rem;
@@ -95,10 +96,10 @@ h3 {
     background-image: url(./img/mobile/portada.jpg);
   }
   h1{
-    font-size: 6rem;
+    font-size: 5rem;
   }
   h3{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .logos-home {
     margin-bottom: 20%;
@@ -107,9 +108,25 @@ h3 {
     margin-top: 3rem;
   }
   .titles p{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .titles p strong{
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .texts{
+    width: 70%;
+  }
+  .border-line{
+    width: 50%;
+    padding: 2%;
+  }
+  .logo-left{
+    width: 40%;
+  }
+  .logo-right{
+    width: 35%;
+  }
+  .btn-home-div{
+    margin-top: 30%;
   }
 }

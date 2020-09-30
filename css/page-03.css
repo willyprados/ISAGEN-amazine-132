@@ -37,11 +37,13 @@
 }
 .text-one h1 {
   font-size: 3rem;
+  line-height: normal;
   margin: 0;
   padding: 0;
 }
 .text-two h1 {
   font-size: 2rem;
+  line-height: normal;
   font-weight: 200;
   margin-top: 0;
   padding-top: 0;
@@ -49,6 +51,7 @@
 .text-two span {
   color: #12ac38;
   font-size: 2rem;
+  line-height: normal;
   font-weight: 600;
 }
 .text-three {
@@ -254,9 +257,9 @@ h3.blue {
   }
   .four-duo-content {
     position: absolute;
-    top: 2200px;
+    top: 2270px;
   }
   .duo-content-text {
-    top: 630px;
+    top: 720px;
   }
 }

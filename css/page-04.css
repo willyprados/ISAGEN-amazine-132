@@ -2,17 +2,20 @@
 
 .container {
   position: relative;
-  top: 680px;
+  top: 410px;;
 }
 
 /* Section one */
 .section-one {
-  background: #0d0c11;
+  background: #0c0b10;
   padding-bottom: 60%;
   position: absolute;
 }
 .section-one img {
   width: 100%;
+}
+.mobile{
+  display: none;
 }
 
 /* Section two */
@@ -32,6 +35,7 @@
   padding: 0;
 }
 .title-one h1 {
+  line-height: normal;
   color: #fff;
   font-weight: 200;
   font-size: 5rem;
@@ -41,12 +45,14 @@
 .title-two h1,
 .title-two h1 strong,
 .title-three h1 {
+  line-height: normal;
   color: #fff;
   font-size: 5rem;
   margin: 0;
   padding: 0;
 }
 .title-three h1 span {
+  line-height: normal;
   color: #ff003d;
   font-size: 5rem;
   margin: 0;
@@ -61,6 +67,7 @@
 .two-text p {
   padding-right: 5%;
   text-align: justify;
+  line-height: normal;
   color: #fff;
   font-weight: 800;
   font-size: 1.5rem;
@@ -95,7 +102,7 @@
 }
 .three-text.bottom {
   position: relative;
-  top: -110px;
+  top: -40px;
 }
 
 /* Section Four */
@@ -104,6 +111,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  top: 400px;
 }
 .section-four img {
   width: 75%;
@@ -112,8 +120,24 @@
 
 /* Responsive */
 
+@media (max-width: 1272px) {
+.three-text.bottom {
+  position: relative;
+  top: 0px;
+  }
+}
+
 /* Tablet */
 @media (max-width: 1020px) {
+  .section-one {
+    background: #0d0c11;
+  }
+  .mobile{
+    display: flex;
+  }
+  .desktop{
+    display: none;
+  }
   .duo-img {
     display: none;
   }
@@ -146,6 +170,9 @@
   .three-text.bottom {
     top: -7px;
   }
+  .section-four {
+    top: 360px;
+  }
 }
 
 /* Mobile */
@@ -171,5 +198,8 @@
   }
   .two-text p {
     font-size: 1rem;
+  }
+  .section-four {
+    top: 215px;
   }
 }

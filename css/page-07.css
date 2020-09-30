@@ -38,13 +38,16 @@
 }
 .title-hr h1,
 .duo-title .title h1 {
+  line-height: normal;
   color: #58595b;
   margin: 5px;
 }
 .title-hr h1 {
+  line-height: normal;
   font-size: 4.6rem;
 }
 .duo-title .title h1 {
+  line-height: normal;
   font-weight: 400;
   font-size: 2.8rem;
 }

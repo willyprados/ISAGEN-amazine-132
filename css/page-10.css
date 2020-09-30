@@ -24,11 +24,13 @@ a {
 }
 .title-title h1,
 .title-title h1 strong {
+  line-height: normal;
   font-size: 3rem;
   margin: 0;
   padding: 0;
 }
 .title-title h1 {
+  line-height: normal;
   font-weight: 400;
 }
 .title-hr hr {
@@ -37,6 +39,7 @@ a {
   display: inline-block;
 }
 .title-hr h1 {
+  line-height: normal;
   font-size: 5rem;
   padding: 0;
   margin: 0;
@@ -88,11 +91,12 @@ a {
 }
 .content-img {
   position: absolute;
-  left: 100px;
+  left: 185px;;
   width: 44%;
+  margin-top: -150px;
 }
 .content-img img {
-  width: 100%;
+  width: 80%;
 }
 .content-img img.mobile {
   display: none;

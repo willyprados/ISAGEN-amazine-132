@@ -40,15 +40,18 @@ a {
   padding: 0;
 }
 .text-hr h1 {
+  line-height: normal;
   font-size: 6rem;
   margin: 0;
   padding: 0;
 }
 .text-title h1 {
+  line-height: normal;
   font-weight: 200;
 }
 .text-title h1,
 .text-title strong {
+  line-height: normal;
   font-size: 3.5rem;
   margin: 0;
   padding: 0;
@@ -114,7 +117,7 @@ a {
 }
 .container-text {
   width: 50%;
-  padding: 5% 0 0 5%;
+  padding: 2% 0 0 5%;
   text-align: justify;
 }
 
@@ -182,10 +185,10 @@ a {
   .container-img {
     display: none;
   }
-  .container-text {
+  /* .container-text {
     width: auto;
     padding: 5% 0;
-  }
+  } */
   .section-three {
     top: 860px;
   }

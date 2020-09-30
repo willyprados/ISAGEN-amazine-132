@@ -30,12 +30,14 @@
   margin-top: 0px;
 }
 .title-hr h1 {
+  line-height: normal;
   color: #ffffff;
   margin: 0px;
   font-weight: 400;
   font-size: 55px;
 }
 .title h1 {
+  line-height: normal;
   font-weight: 400;
   font-size: 35px;
   color: #fff;
@@ -60,11 +62,13 @@
   margin-top: -420px;
 }
 .titles .title-hr h1 b {
+  line-height: normal;
   color: #ffffff;
   font-size: 55px;
   font-weight: bold;
 }
 .titles .title h1 b {
+  line-height: normal;
   font-size: 34px;
   font-weight: bold;
 }

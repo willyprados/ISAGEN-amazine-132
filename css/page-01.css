@@ -27,6 +27,7 @@
   font-size: 3rem;
   margin: 0;
   color: #3f3f3f;
+  line-height: normal;
 }
 .one-h1 h1{
   text-transform: uppercase;
@@ -39,6 +40,7 @@
 .one-h1 strong{
   font-size: 1.5rem;
   color: #3f3f3f;
+  line-height: normal;
 }
 
 /* section withe */
