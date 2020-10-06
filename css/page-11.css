@@ -67,7 +67,7 @@ p {
   background-repeat: no-repeat;
   float: left;
   min-height: 250px;
-  width: 25%;
+  width: 27%;
   padding: 5%;
   padding-top: 100px;
   border-bottom: 10px solid #2ab8d2;
@@ -180,8 +180,8 @@ p {
     background: none;
   }
   .inner_3_11 .mov {
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    text-align: right;
     margin-top: -60px;
   }
   .inner_3_11 img.mov {

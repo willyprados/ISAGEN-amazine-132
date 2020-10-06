@@ -150,7 +150,7 @@
 }
 .three-card {
   margin-top: 60px;
-  width: 64%;
+  width: 75%;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -215,6 +215,9 @@
 
 /* Mobile */
 @media (max-width: 480px) {
+  .relative {
+    top: 360px;
+  }
   .one-title{
     width: 90%;
     margin-top: -150px;

@@ -214,7 +214,8 @@ p.three-text {
     display: none;
   }
   .img-mobile{
-    display: flex;
+    display: block;
+    text-align: center;
     padding: 0 10%;
   }
   .img-mobile img{
@@ -281,5 +282,8 @@ p.three-text {
   .border{
     display: block;
     text-align: center;
+  }
+  .section-three-text h2, .three-text{
+    font-size: 1.5rem;
   }
 }

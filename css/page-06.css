@@ -185,10 +185,6 @@ a {
   .container-img {
     display: none;
   }
-  /* .container-text {
-    width: auto;
-    padding: 5% 0;
-  } */
   .section-three {
     top: 860px;
   }
@@ -218,7 +214,11 @@ a {
     display: flex;
   }
   .container {
-    top: 710px;
+    top: 740px;
+  }
+  .container-text {
+    width: 100%;
+    padding: 0;
   }
   .one-duo {
     flex-direction: column;
@@ -245,7 +245,7 @@ a {
     font-size: 1.5rem;
   }
   .section-three,.section-four{
-    top: 1490px;
+    top: 1580px;
   }
   .section-four{
     padding: 10% 10% 0;
@@ -258,5 +258,8 @@ a {
     width: 100%;
     left: 20px;
     top: -50px;
+  }
+  .contener-text p{
+    padding: 0 5% 5%;
   }
 }

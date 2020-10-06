@@ -231,5 +231,7 @@
   }
   .section-four {
     top: 215px;
+    display: block;
+    text-align: center;
   }
 }

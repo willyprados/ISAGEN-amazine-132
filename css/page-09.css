@@ -212,5 +212,10 @@ a {
   .title-text p{
     line-height: normal;
   }
-
+  .section-two{
+    margin: 0;
+  }
+  .container-blue h2{
+    text-align: left;
+  }
 }
