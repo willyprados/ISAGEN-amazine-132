@@ -6,6 +6,7 @@
     <title>Perspectivas del Gas Natural en Colombia</title>
     <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="../css/page-07.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
@@ -42,7 +43,7 @@
                       <i class="fas fa-home"></i>
                     </a>
                   </li>
-                  <li class="menu-oe">
+                  <li class="menu-oe" id="open-modal">
                     <p>Otras ediciones</p>
                   </li>
                   <li class="menu-edition">
@@ -138,6 +139,30 @@
                   </li>
                 </ul>
               </div>
+
+              <!-- Modal -->
+
+              <aside id="modal" class="modal">
+                <section class="modal-container">
+                  <header class="modal-header">
+                    <h2 class="modal-title">Otras ediciones</h2>
+                    <div class="close">x</div>
+                  </header>
+                  <section class="modal-content">
+                    <div class="carousel-wrap">
+                      <div class="owl-carousel">
+                        <div class="item">
+                          <a class="revista" href="https://www.isagen.com.co/LineaVIVA/lineaviva_edicion_131/index.html" target="_blank" ><img src="../img/modal/edition-131.png"></a>
+                        </div>
+                        <div class="item">
+                          <a class="revista active" ><img src="../img/modal/edition-132.png"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </aside>
+
             </div>
           </div>
         </nav>
@@ -228,6 +253,6 @@
       </div>
     </div>
 
-
+    <script src="../script.js"></script>
   </body>
 </html>
