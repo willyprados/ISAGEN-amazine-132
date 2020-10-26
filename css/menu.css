@@ -187,6 +187,9 @@ li.menu-item.active {
   margin-top: 10px;
 }
 
+li#open-modal {
+  cursor: pointer;
+}
 
 /* Paginación */
 .nav-logo img{
