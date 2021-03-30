@@ -3,7 +3,7 @@
 * {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #58595b;
+  color: #3F3F3F;
   line-height: 20px;
 }
 
@@ -51,11 +51,11 @@ body {
 .menuToggle span {
   display: block;
   width: 33px;
-  height: 4px;
+  height: 3px;
   margin-bottom: 5px;
   position: relative;
-  background: #004687;
-  border-radius: 3px;
+  background: #0052A8;
+  border-radius: 15px;
   z-index: 1;
   transform-origin: 17px 6px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
@@ -130,6 +130,7 @@ body {
   text-align: end;
   list-style: none;
   margin-top: 0;
+  margin-bottom: 25%;
 }
 
 .menu-nav li {
@@ -174,9 +175,9 @@ li.menu-edition{
 
 a.menu-link {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 0;
+  line-height: 16px;
   color: #004687;
 }
 
@@ -257,8 +258,9 @@ li#open-modal {
   .menuToggle input:checked {
     margin-left: 30%;
   }
-  a.menu-link{
-    font-size: 12px;
+  a.menu-link {
+    font-size: 16px;
+    line-height: 18px;
   }
   .nav-btn span {
     display: none;
@@ -274,13 +276,16 @@ li#open-modal {
 /* Mobile */
 @media (max-width: 480px) {
   .menu {
-    max-width: 95%;
+    max-width: 70%;
+  }
+  .menu-nav{
+    margin-bottom: 25%;
   }
   .menuToggle input:checked ~ span {
-    margin-left: 80%;
+    margin-left: 55%;
   }
   .menuToggle input:checked {
-    margin-left: 80%;
+    margin-left: 55%;
   }
   .nav-btn{
     padding: 0 20px;
@@ -291,8 +296,9 @@ li#open-modal {
   .nav-logo img {
     width: 70px;
   }
-  a.menu-link{
-    font-size: 12px;
+  a.menu-link {
+    font-size: 14px;
+    line-height: 18px;
   }
   .nav-left div{
     padding: 0;
